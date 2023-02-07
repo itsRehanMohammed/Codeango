@@ -33,13 +33,13 @@ const Navbar = ({ saved, setsaved }) => {
           }
           <div className={`${openMenu ? " active right" : "right close"} `}>
             <ul className="navbar-ul">
-              <li onClick={() => setopenMenu(!openMenu)}>
+              <li onClick={() => setopenMenu(false)}>
                 <Link to="/">Home</Link>
               </li>
-              <li onClick={() => setopenMenu(!openMenu)}>
+              <li onClick={() => setopenMenu(false)}>
                 <Link to="/about">About</Link>
               </li>
-              <li onClick={() => setopenMenu(!openMenu)}>
+              <li onClick={() => setopenMenu(false)}>
                 <Link to="/courses">Courses</Link>
               </li>
               {
@@ -50,7 +50,7 @@ const Navbar = ({ saved, setsaved }) => {
                 </div>
               }
 
-              <div className="login" onClick={() => setopenMenu(!openMenu)}>
+              <div className="login" onClick={() => setopenMenu(false)}>
                 <Link to="/login"> Login </Link>
               </div>
             </ul>
