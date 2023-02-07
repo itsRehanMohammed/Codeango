@@ -94,6 +94,7 @@
   }
   .hero-intro h1 {
     font-size: 1.7rem;
+    text-align: center;
   }
   .hero-intro p {
     font-size: 1rem;
@@ -103,10 +104,9 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 430px) {
   .hero::after,
   .hero::before {
-    bottom: 130px;
-    height: 80px;
+    height: 0px;
   }
 }

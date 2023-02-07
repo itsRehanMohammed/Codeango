@@ -8,6 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid #444;
+  padding: 16px 0;
+  margin: 10px 0;
+}
+.dedicated-trainers {
+  border: none;
 }
 .content {
   padding: 10px 20px;
