@@ -1,0 +1,91 @@
+.Login,
+.Signup {
+  width: 80vw;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-form-wrapper,
+.login-form-wrapper {
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+  width: 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-head,
+.signup-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lock-icon {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.form {
+  width: 80%;
+  margin: 0px auto;
+}
+.login-email,
+.login-password,
+.login-button,
+.signup-phone,
+.signup-email,
+.signup-confirm-password,
+.signup-password,
+.signup-button {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.input-email,
+.input-phone,
+.input-password,
+.input-confirm-password {
+  width: 100%;
+}
+.input-button {
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+.extra-usefull-links {
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-right: 46px;
+  margin-top: -10px;
+}
+.signup-copyright,
+.login-copyright {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.login-copyright a,
+.signup-copyright a {
+  font-weight: 700;
+}
+@media only screen and (max-width: 540px) {
+  .Login,
+  .Signup {
+    width: 100vw;
+  }
+}

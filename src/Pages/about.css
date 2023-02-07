@@ -1,0 +1,53 @@
+.about {
+  width: 80vw;
+  margin: 20px auto;
+}
+.dedicated-trainers,
+.offers,
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  padding: 10px 20px;
+}
+.content p {
+  font-size: 1.4rem;
+}
+.offers .img {
+  order: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    width: 100vw;
+    margin: 20px auto;
+  }
+  .about h1 {
+    text-align: center;
+  }
+  .dedicated-trainers,
+  .offers,
+  .mission {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding: 10px;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 1.7rem;
+  }
+  .content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .offers .content {
+    order: 2;
+    text-align: center;
+  }
+  .img img {
+    width: 80vw;
+  }
+}

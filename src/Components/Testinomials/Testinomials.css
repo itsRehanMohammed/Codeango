@@ -1,0 +1,37 @@
+.testinomials {
+  width: 90vw;
+  margin: 30px auto;
+}
+.testinomials-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testinomial-card {
+  width: 380px;
+  padding: 10px 20px;
+  margin: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-bottom: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+.comment-name {
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+  .testinomials {
+    width: 100vw;
+  }
+  .testinomials-wrapper {
+    flex-wrap: wrap;
+  }
+  .testinomial-card {
+    width: 280px;
+    padding: 10px 20px;
+    margin: 16px 2px;
+  }
+}

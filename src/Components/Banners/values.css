@@ -1,0 +1,45 @@
+.values {
+  width: 100vw;
+  /* background-image: linear-gradient(#4343bb, cyan, #4343bb); */
+  background-color: #dbdbf7;
+}
+.valuesbanner {
+  width: 90vw;
+  margin: 50px auto;
+  padding: 10px;
+}
+.valuesbanner h1 {
+  text-transform: uppercase;
+}
+.values-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.values-card {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.values-card img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+.values-wrapper .values-card h2,
+.values-wrapper .values-card p {
+  padding-bottom: 8px;
+  /* color: #fff; */
+}
+@media only screen and (max-width: 800px) {
+  .valuesbanner {
+    width: 100vw;
+  }
+  .values-wrapper {
+    flex-wrap: wrap;
+  }
+}

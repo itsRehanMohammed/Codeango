@@ -1,0 +1,85 @@
+.footer-container {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  width: 100vw;
+  margin-top: 10px;
+}
+.upper {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+}
+.upper .links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.upper .links a {
+  color: gray;
+  width: fit-content;
+}
+.upper .footer-content h4 {
+  color: #000;
+}
+.upper .links a:hover {
+  color: rgb(85, 80, 80);
+}
+.upper .footer-content {
+  flex: 1;
+  color: gray;
+  margin: 0 0.3rem;
+}
+.upper .links h4,
+.upper .footer-content h4 {
+  margin-bottom: 0.2rem;
+}
+.lower {
+  width: 90vw;
+  margin: 2rem auto 0.6rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.brand-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.footer-content {
+  font-size: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .footer-container {
+    padding: 1rem 0;
+  }
+  .upper {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .upper .links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .upper .footer-content {
+    margin-bottom: 10px;
+    padding: 0 2px;
+  }
+  .upper .links h4,
+  .upper .footer-content h4 {
+    margin-bottom: 0.2rem;
+  }
+  .lower {
+    width: 100vw;
+    margin: 1.2rem 0;
+    justify-content: center;
+  }
+}

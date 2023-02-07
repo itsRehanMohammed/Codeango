@@ -1,0 +1,26 @@
+.courses {
+  width: 80vw;
+  margin: 20px auto;
+}
+.courses h1 {
+  text-align: center;
+}
+.courses-page-wrapper {
+  display: flex;
+}
+.courses-wrapper {
+  flex: 4;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px) {
+  .courses {
+    width: 100vw;
+  }
+  .courses-page-wrapper {
+    flex-direction: column;
+  }
+}
